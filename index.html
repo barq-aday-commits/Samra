@@ -1,1 +1,323 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>شركة سمرة للإنتاج الغذائي</title><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet"><style>:root{--bg-ivory:#FFFFF0;--bg-baby-green:#E1EAD1;--btn-pewter:#8E9294;--btn-chartreuse:#7FFF00;--text-charcoal:#333333;--white:#ffffff;--accent-red:#ff5e5e;--soft-green:#f4f8ec}body{font-family:Cairo,sans-serif;background-color:var(--bg-ivory);color:var(--text-charcoal);margin:0;padding:0;scroll-behavior:smooth}header{background-color:var(--text-charcoal);padding:10px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000}.logo{font-size:20px;font-weight:800;color:var(--btn-chartreuse);text-decoration:none;display:flex;align-items:center;gap:5px}.nav-icons{display:flex;gap:15px;color:#fff;cursor:pointer}.cart-badge{background:var(--btn-chartreuse);color:#000;border-radius:50%;padding:1px 6px;font-size:11px;font-weight:700}.hero-banner{background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200);background-size:cover;background-position:center;height:300px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:0 10%}.hero-title{font-size:32px;font-weight:800;color:var(--btn-chartreuse);margin:0 0 10px}.hero-desc{font-size:16px;max-width:600px;line-height:1.5;text-shadow:1px 1px 3px rgba(0,0,0,.8)}.section-header{margin:30px 5% 15px;border-right:5px solid var(--btn-chartreuse);padding-right:12px}.product-scroll-row{display:flex;overflow-x:auto;gap:15px;padding:10px 5% 30px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}.product-scroll-row::-webkit-scrollbar{display:none}.product-card{flex:0 0 180px;background:#fff;border-radius:12px;position:relative;padding:12px;text-align:center;border:1px solid #eee;scroll-snap-align:start}.badge{position:absolute;top:0;left:0;background:var(--accent-red);color:#fff;padding:2px 10px;border-radius:12px 0 12px 0;font-size:10px;font-weight:700}.product-card img{width:100%;height:130px;object-fit:contain}.product-card h3{font-size:13px;margin:10px 0;height:35px;overflow:hidden}.price{font-size:16px;font-weight:800;color:#222;margin-bottom:10px}.add-btn{width:100%;background-color:var(--bg-baby-green);border:1px solid #ccc;padding:7px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:700;font-family:Cairo}.about-section{background-color:var(--soft-green);padding:50px 10%;text-align:center;border-top:1px solid #e0e6d5}.about-container{max-width:900px;margin:0 auto}.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;margin-top:20px}.info-box{padding:20px;background:#fff;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.03)}.info-box h4{color:var(--text-charcoal);margin-bottom:10px;display:flex;align-items:center;justify-content:center;gap:10px}.info-box p{font-size:14px;line-height:1.6;color:#666}.divider{width:50px;height:3px;background:var(--btn-chartreuse);margin:15px auto}.whatsapp-float{position:fixed;bottom:20px;left:20px;background:#25d366;width:50px;height:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;z-index:2000}footer{background-color:var(--text-charcoal);color:#ccc;padding:30px 5% 20px}</style></head><body><header><a href="#" class="logo">🌾 سمرة</a><div class="nav-icons"><span>🔍</span><div style="position:relative">🛒 <span class="cart-badge">0</span></div><span>☰</span></div></header><section class="hero-banner"><h1 class="hero-title">شركة سمرة</h1><p class="hero-desc">نقدم لكم أجود المنتجات الغذائية المختارة بعناية من خيرات الطبيعة. الجودة هي بصمتنا، ورضاكم هو هدفنا الأول.</p></section><div class="section-header"><h2>أحدث منتجاتنا</h2></div><div class="product-scroll-row" id="mainGrid"></div><section class="about-section"><div class="about-container"><h3 style="margin-bottom:5px">لماذا سمرة؟</h3><div class="divider"></div><div class="about-grid"><div class="info-box"><h4><span>🎯</span> رسالتنا</h4><p>نسعى لتوفير غذاء صحي وآمن لكل بيت عراقي، من خلال الجمع بين أحدث تقنيات الإنتاج وبين أمانة العمل، لنضمن وصول المنتج من المزرعة إلى مائدتكم بأعلى معايير الجودة العالمية.</p></div><div class="info-box"><h4><span>🌟</span> رؤيتنا</h4><p>أن نصبح الرواد في الإنتاج الغذائي الوطني، وأن تكون علامة "سمرة" هي الاختيار الأول للعائلة التي تبحث عن الطعم الأصيل والفوائد الغذائية المتكاملة بأسعار تنافسية.</p></div></div><div class="info-box" style="margin-top:30px;border:1px dashed var(--btn-pewter)"><h4><span>🛡️</span> التزامنا بالجودة</h4><p>تخضع كافة منتجاتنا لرقابة صحية صارمة وفحوصات دورية لضمان خلوها من المواد الحافظة الضارة، مما يجعلها الخيار الأمثل لصحة أطفالكم وعائلاتكم.</p></div></div></section><a href="https://wa.me/رقمك" class="whatsapp-float"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="30" alt="wa"></a><footer><div style="text-align:center;font-size:13px">© 2024 سمرة للإنتاج الغذائي - دعم المنتج الوطني 🇮🇶<br><small style="color:#888">جميع الحقوق محفوظة</small></div></footer><script>const grid=document.getElementById("mainGrid"),products=[{name:"أرز بسمتي سمرة الملكي",price:"18,500",badge:"جديد",img:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=300"},{name:"زيت زيتون بكر ممتاز",price:"12,000",badge:"طبيعي",img:"https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=300"},{name:"طحينة سمرة الفاخرة",price:"7,500",badge:"عضوي",img:"https://images.unsplash.com/photo-1515543904379-3d757afe72e4?w=300"},{name:"بهارات مشكلة عراقية",price:"4,000",badge:"الأكثر طلباً",img:"https://images.unsplash.com/photo-1532336414038-cf19250c5757?w=300"},{name:"عدس أحمر منقى",price:"3,500",badge:"توفير",img:"https://images.unsplash.com/photo-1515942400420-2b98fed1f515?w=300"}];for(let i=0;i<50;i++){const e=products[i%products.length];grid.innerHTML+=`<div class="product-card"><div class="badge">${e.badge}</div><img src="${e.img}" alt="${e.name}"><h3>${e.name} #${i+1}</h3><div class="price">${e.price} د.ع</div><button class="add-btn" onclick="updateCart()">أضف للسلة 🛒</button></div>`}let count=0;function updateCart(){count++,document.querySelector(".cart-badge").innerText=count}</script></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>شركة سمرة للإنتاج الغذائي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-ivory: #FFFFF0;
+            --bg-baby-green: #E1EAD1;
+            --btn-pewter: #8E9294;
+            --btn-chartreuse: #7FFF00;
+            --text-charcoal: #333333;
+            --white: #ffffff;
+            --accent-red: #ff5e5e;
+            --soft-green: #f4f8ec
+        }
+
+        body {
+            font-family: Cairo, sans-serif;
+            background-color: var(--bg-ivory);
+            color: var(--text-charcoal);
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth
+        }
+
+        header {
+            background-color: var(--text-charcoal);
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--btn-chartreuse);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px
+        }
+
+        .nav-icons {
+            display: flex;
+            gap: 15px;
+            color: #fff;
+            cursor: pointer
+        }
+
+        .cart-badge {
+            background: var(--btn-chartreuse);
+            color: #000;
+            border-radius: 50%;
+            padding: 1px 6px;
+            font-size: 11px;
+            font-weight: 700
+        }
+
+        .hero-banner {
+            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200);
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 10%
+        }
+
+        .hero-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--btn-chartreuse);
+            margin: 0 0 10px
+        }
+
+        .hero-desc {
+            font-size: 16px;
+            max-width: 600px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, .8)
+        }
+
+        .section-header {
+            margin: 30px 5% 15px;
+            border-right: 5px solid var(--btn-chartreuse);
+            padding-right: 12px
+        }
+
+        .product-scroll-row {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding: 10px 5% 30px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none
+        }
+
+        .product-scroll-row::-webkit-scrollbar {
+            display: none
+        }
+
+        .product-card {
+            flex: 0 0 180px;
+            background: #fff;
+            border-radius: 12px;
+            position: relative;
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #eee;
+            scroll-snap-align: start
+        }
+
+        .badge {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: var(--accent-red);
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 12px 0 12px 0;
+            font-size: 10px;
+            font-weight: 700
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 130px;
+            object-fit: contain
+        }
+
+        .product-card h3 {
+            font-size: 13px;
+            margin: 10px 0;
+            height: 35px;
+            overflow: hidden
+        }
+
+        .price {
+            font-size: 16px;
+            font-weight: 800;
+            color: #222;
+            margin-bottom: 10px
+        }
+
+        .add-btn {
+            width: 100%;
+            background-color: var(--bg-baby-green);
+            border: 1px solid #ccc;
+            padding: 7px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 700;
+            font-family: Cairo
+        }
+
+        .about-section {
+            background-color: var(--soft-green);
+            padding: 50px 10%;
+            text-align: center;
+            border-top: 1px solid #e0e6d5
+        }
+
+        .about-container {
+            max-width: 900px;
+            margin: 0 auto
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px
+        }
+
+        .info-box {
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .03)
+        }
+
+        .info-box h4 {
+            color: var(--text-charcoal);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px
+        }
+
+        .info-box p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #666
+        }
+
+        .divider {
+            width: 50px;
+            height: 3px;
+            background: var(--btn-chartreuse);
+            margin: 15px auto
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: #25d366;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000
+        }
+
+        footer {
+            background-color: var(--text-charcoal);
+            color: #ccc;
+            padding: 30px 5% 20px
+        }
+    </style>
+</head>
+<body>
+    <header><a href="#" class="logo">🌾 سمرة</a>
+        <div class="nav-icons"><span>🔍</span>
+            <div style="position:relative">🛒 <span class="cart-badge">0</span></div><span>☰</span>
+        </div>
+    </header>
+    <section class="hero-banner">
+        <h1 class="hero-title">شركة سمرة</h1>
+        <p class="hero-desc">نقدم لكم أجود المنتجات الغذائية المختارة بعناية من خيرات الطبيعة. الجودة هي بصمتنا، ورضاكم هو هدفنا الأول.</p>
+    </section>
+    <div class="section-header">
+        <h2>أحدث منتجاتنا</h2>
+    </div>
+    <div class="product-scroll-row" id="mainGrid"></div>
+    <section class="about-section">
+        <div class="about-container">
+            <h3 style="margin-bottom:5px">لماذا سمرة؟</h3>
+            <div class="divider"></div>
+            <div class="about-grid">
+                <div class="info-box">
+                    <h4><span>🎯</span> رسالتنا</h4>
+                    <p>نسعى لتوفير غذاء صحي وآمن لكل بيت عراقي، من خلال الجمع بين أحدث تقنيات الإنتاج وبين أمانة العمل، لنضمن وصول المنتج من المزرعة إلى مائدتكم بأعلى معايير الجودة العالمية.</p>
+                </div>
+                <div class="info-box">
+                    <h4><span>🌟</span> رؤيتنا</h4>
+                    <p>أن نصبح الرواد في الإنتاج الغذائي الوطني، وأن تكون علامة "سمرة" هي الاختيار الأول للعائلة التي تبحث عن الطعم الأصيل والفوائد الغذائية المتكاملة بأسعار تنافسية.</p>
+                </div>
+            </div>
+            <div class="info-box" style="margin-top:30px;border:1px dashed var(--btn-pewter)">
+                <h4><span>🛡️</span> التزامنا بالجودة</h4>
+                <p>تخضع كافة منتجاتنا لرقابة صحية صارمة وفحوصات دورية لضمان خلوها من المواد الحافظة الضارة، مما يجعلها الخيار الأمثل لصحة أطفالكم وعائلاتكم.</p>
+            </div>
+        </div>
+    </section>
+    <a href="https://wa.me/رقمك" class="whatsapp-float"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="30" alt="wa"></a>
+    
+    <footer>
+        <div style="text-align:center;font-size:13px">
+            © <span id="year">2026</span> سمرة للإنتاج الغذائي - دعم المنتج الوطني 🇮🇶<br>
+            <small style="color:#888">جميع الحقوق محفوظة لـ بارق عداي</small>
+        </div>
+    </footer>
+
+    <script>
+        // تحديث التاريخ تلقائياً
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        const grid = document.getElementById("mainGrid"),
+            products = [{
+                name: "أرز بسمتي سمرة الملكي",
+                price: "18,500",
+                badge: "جديد",
+                img: "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=300"
+            }, {
+                name: "زيت زيتون بكر ممتاز",
+                price: "12,000",
+                badge: "طبيعي",
+                img: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=300"
+            }, {
+                name: "طحينة سمرة الفاخرة",
+                price: "7,500",
+                badge: "عضوي",
+                img: "https://images.unsplash.com/photo-1515543904379-3d757afe72e4?w=300"
+            }, {
+                name: "بهارات مشكلة عراقية",
+                price: "4,000",
+                badge: "الأكثر طلباً",
+                img: "https://images.unsplash.com/photo-1532336414038-cf19250c5757?w=300"
+            }, {
+                name: "عدس أحمر منقى",
+                price: "3,500",
+                badge: "توفير",
+                img: "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?w=300"
+            }];
+        for (let i = 0; i < 50; i++) {
+            const e = products[i % products.length];
+            grid.innerHTML += `<div class="product-card"><div class="badge">${e.badge}</div><img src="${e.img}" alt="${e.name}"><h3>${e.name} #${i+1}</h3><div class="price">${e.price} د.ع</div><button class="add-btn" onclick="updateCart()">أضف للسلة 🛒</button></div>`
+        }
+        let count = 0;
+
+        function updateCart() {
+            count++, document.querySelector(".cart-badge").innerText = count
+        }
+    </script>
+</body>
+</html>
